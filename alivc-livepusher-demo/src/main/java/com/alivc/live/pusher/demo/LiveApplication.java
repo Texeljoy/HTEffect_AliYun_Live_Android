@@ -35,7 +35,7 @@ public class LiveApplication extends Application {
         }
 
         //todo --- hteffect start
-        HTEffect.shareInstance().initHTEffect( this, "0a5f04a23d3c40f2813da683a9eb55ec", new HTEffect.InitCallback() {
+        HTEffect.shareInstance().initHTEffect( this, "YOUR_APP_ID", new HTEffect.InitCallback() {
             @Override public void onInitSuccess() {
 
             }
